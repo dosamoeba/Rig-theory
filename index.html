@@ -1,7 +1,60 @@
-git clone https://github.com/tuusuario/mi-sitio-web.git
-cd mi-sitio-web
-# Añade tus archivos
-git add .
-git commit -m "Primer commit"
-git push origin main
-<p>prueba</p>
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Primera Página en GitHub Pages</title>
+    <style>
+        /* CSS básico */
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #6200ea;
+            color: white;
+            padding: 20px;
+        }
+        h1 {
+            margin: 0;
+        }
+        p {
+            font-size: 1.2em;
+            color: #333;
+        }
+        button {
+            padding: 10px 20px;
+            font-size: 1em;
+            color: white;
+            background-color: #6200ea;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #3700b3;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>¡Bienvenido a mi página en GitHub Pages!</h1>
+    </header>
+    <main>
+        <p>Esta es una prueba para entender cómo funciona GitHub Pages. Haz clic en el botón para interactuar:</p>
+        <button onclick="mostrarMensaje()">Haz clic aquí</button>
+    </main>
+    <footer>
+        <p>Creado por <strong>[Tu Nombre]</strong></p>
+    </footer>
+    <script>
+        // JavaScript básico
+        function mostrarMensaje() {
+            alert("¡Hola! Esto es un mensaje de prueba desde GitHub Pages.");
+        }
+    </script>
+</body>
+</html>
